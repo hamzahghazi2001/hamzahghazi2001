@@ -118,7 +118,7 @@ Completion certificates, hands-on training.
 ## GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-topaz.vercel.app/api?username=hamzahghazi2001&show_icons=true&hide_rank=true&theme=transparent&hide_border=true" alt="Hamza's GitHub stats" />
+  <img src="https://github-readme-stats-eight-topaz.vercel.app/api?username=hamzahghazi2001&show_icons=true&hide_rank=true&bg_color=0d0221&title_color=00f0ff&icon_color=ff2079&text_color=e0e0e0&border_color=00f0ff&border_radius=10" alt="Hamza's GitHub stats" />
 </div>
 
 ## Connect
