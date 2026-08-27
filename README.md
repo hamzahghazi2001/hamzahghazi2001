@@ -107,4 +107,4 @@ Delivery pipeline   -> Docker, CI/CD, deployment workflow as the stack matures
   <img src="./assets/stats_terminal.svg" width="100%" alt="Hamza's horizontal GitHub activity terminal" />
 </p>
 
-<sub>Generated inside this repository from GitHub's GraphQL API. No third-party stats renderer.</sub>
+
