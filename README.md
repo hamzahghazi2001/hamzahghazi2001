@@ -22,7 +22,6 @@ Backend development, testing, and application security.
 
 <p>
   <img src="https://img.shields.io/badge/Dubai-UAE-0E7490?style=flat-square&logo=googlemaps&logoColor=white" alt="Dubai, UAE" />
-  <img src="https://img.shields.io/badge/UAE%20Golden%20Visa-Work%20Authorized-C89B3C?style=flat-square" alt="UAE Golden Visa" />
   <img src="https://img.shields.io/badge/Open%20to-Graduate%20%26%20Junior%20Tech%20Roles-2EA44F?style=flat-square" alt="Open to work" />
 </p>
 
