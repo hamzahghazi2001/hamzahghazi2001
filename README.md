@@ -104,7 +104,6 @@ Delivery pipeline   -> Docker, CI/CD, deployment workflow as the stack matures
 ## GITHUB_ACTIVITY
 
 <p align="center">
-  <img src="./assets/github-stats.svg" alt="Live GitHub activity statistics" width="560" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=hamzahghazi2001&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D0221&title_color=00F0FF&text_color=E2E8F0&icon_color=FF2079&ring_color=9D4EDD&border_color=1B1035" alt="GitHub stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=hamzahghazi2001&background=0D0221&border=1B1035&stroke=00F0FF&ring=FF2079&fire=FF2079&currStreakLabel=00F0FF&sideLabels=E2E8F0&dates=94A3B8&sideNums=E2E8F0&currStreakNum=E2E8F0&hide_total_contributions=false" alt="GitHub streak stats" />
 </p>
-
-<sub>Generated automatically from GitHub data and refreshed daily by GitHub Actions.</sub>
