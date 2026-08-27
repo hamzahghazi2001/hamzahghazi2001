@@ -32,9 +32,7 @@ Backend development, testing, and application security.
 
 First Class Computer Science graduate based in Dubai. Python, SQL, Linux, Git.
 
-Dissertation: built and evaluated a passkey-first authentication prototype (Flask, WebAuthn, pytest), focused on application security. Also did an IT internship at **Keller Foundations Contracting** — requirements engineering, PLM workflow analysis, MoSCoW prioritisation, UML modelling.
-
-Open to graduate software engineering, junior Python/backend, QA/test, and application support roles in the UAE.
+Dissertation: built and evaluated a passkey-first authentication prototype (Flask, WebAuthn, pytest), focused on application security
 
 ## Featured work
 
@@ -93,7 +91,7 @@ Fabric Minecraft mod for terrain-aware build planning. Structured Git workflow, 
 
 ## Verified Boot.dev training
 
-Completion certificates, not accredited certifications — each links to a public, verifiable record of hands-on training.
+Completion certificates, hands-on training.
 
 <p>
   <a href="https://www.boot.dev/certificates/7ef576c4-c518-4753-9854-a32b4398ab11">
@@ -115,15 +113,6 @@ Completion certificates, not accredited certifications — each links to a publi
 
 **Completed:** Python · Object Oriented Programming in Python · Linux · Git · SQL  
 [View my Boot.dev profile](https://www.boot.dev/u/mhg2001)
-
-<details>
-<summary><strong>Certificate dates</strong></summary>
-
-* Python: 12 August 2025
-* Object Oriented Programming in Python: 31 December 2025
-* Git: 23 June 2026
-* Linux: 9 August 2026
-* SQL: 12 August 2026
 
 </details>
 
