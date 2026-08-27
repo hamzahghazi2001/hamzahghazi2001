@@ -116,13 +116,6 @@ Completion certificates, hands-on training.
 
 </details>
 
-## Experience and education
-
-* 🎓 **BSc (Hons) Computer Science, First Class Honours**, Heriot-Watt University Dubai, 2026
-* 💼 **IT Intern, Keller Foundations Contracting LLC**, 2025 — requirements engineering, PLM workflow analysis, functional and nonfunctional specifications, MoSCoW prioritisation, UML and dashboard/report deliverables
-* 🏆 **2× Deputy Principal's Award for Academic Excellence**, Heriot-Watt University
-* 🇦🇪 **UAE Golden Visa holder**, long-term UAE work authorization
-
 ## GitHub activity
 
 <div align="center">
