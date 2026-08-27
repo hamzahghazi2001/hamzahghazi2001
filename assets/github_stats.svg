@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity sync pending</title>
+  <desc id="desc">Run the Update profile stats workflow once to populate live GitHub values.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F0FF"/>
+      <stop offset="0.52" stop-color="#9D4EDD"/>
+      <stop offset="1" stop-color="#FF2079"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="148" rx="12" fill="#0D0221" stroke="#2B1749" stroke-width="2"/>
+  <rect x="18" y="15" width="964" height="3" rx="2" fill="url(#line)"/>
+  <text x="34" y="48" fill="#00F0FF" font-size="14" font-weight="700" font-family="Consolas, 'Courier New', monospace" letter-spacing="1.8">GITHUB // LIVE</text>
+  <text x="34" y="87" fill="#E2E8F0" font-size="25" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">SYNC PENDING</text>
+  <text x="34" y="116" fill="#8B7AAE" font-size="12" font-family="Consolas, 'Courier New', monospace">Actions → Update profile stats → Run workflow</text>
+</svg>
