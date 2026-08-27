@@ -1,1 +1,92 @@
+<svg width="400" height="540" viewBox="0 0 400 540" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
+  <defs>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="warmGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="vignette" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#04120a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" opacity="0.28"/>
+    </pattern>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33ff77" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#33ff77" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#33ff77" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panelClip"><rect x="0" y="0" width="400" height="540"/></clipPath>
+  </defs>
 
+  <!-- base -->
+  <rect width="400" height="540" fill="#030904"/>
+  <rect width="400" height="540" fill="url(#vignette)"/>
+
+  <g clip-path="url(#panelClip)">
+    <!-- ambient CRT scanlines -->
+    <rect width="400" height="540" fill="url(#scan)"/>
+    <!-- signature: sweeping scan band, continuous -->
+    <rect x="0" width="400" height="70" fill="url(#sweepGrad)">
+      <animate attributeName="y" values="-70;540" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- outer frame, sharp corners -->
+  <rect x="14" y="14" width="372" height="512" fill="none" stroke="#1c4a2a" stroke-width="1"/>
+  <g stroke="#33ff77" stroke-width="1.6" fill="none" filter="url(#softGlow)">
+    <path d="M14,32 L14,14 L32,14"/>
+    <path d="M368,14 L386,14 L386,32"/>
+    <path d="M386,508 L386,526 L368,526"/>
+    <path d="M32,526 L14,526 L14,508"/>
+  </g>
+
+  <!-- boot sequence block -->
+  <text x="30" y="42" font-size="10.5" letter-spacing="0.5" fill="#3f7a4f">SYSTEM_BOOT ..................... COMPLETE</text>
+  <text x="30" y="58" font-size="10.5" letter-spacing="0.5" fill="#3f7a4f">USER_LOAD ........................ H.GHAZI</text>
+  <text x="30" y="74" font-size="10.5" letter-spacing="0.5" fill="#3f7a4f">ACCESS_LEVEL ..................... GRANTED</text>
+
+  <!-- header -->
+  <text x="30" y="118" font-size="30" font-weight="700" letter-spacing="1.5" fill="#ffb020" filter="url(#warmGlow)">HAMZA GHAZI</text>
+  <text x="30" y="138" font-size="11.5" letter-spacing="1" fill="#5fae74">&gt; backend_engineer · dubai_uae</text>
+
+  <line x1="30" y1="154" x2="370" y2="154" stroke="#1c4a2a" stroke-width="1"/>
+  <text x="370" y="150" font-size="8.5" fill="#2f5a3a" text-anchor="end" letter-spacing="1">GH://ACTIVITY_LOG</text>
+
+  <!-- manifest rows -->
+  <g font-size="13" letter-spacing="0.4">
+    <text x="30" y="188"><tspan fill="#5fae74">TOTAL_STARS </tspan><tspan fill="#1f4a2c">..........................</tspan><tspan fill="#33ff77" font-weight="700" filter="url(#softGlow)"> 0</tspan></text>
+    <text x="30" y="222"><tspan fill="#5fae74">TOTAL_COMMITS (2026) </tspan><tspan fill="#1f4a2c">................</tspan><tspan fill="#33ff77" font-weight="700" filter="url(#softGlow)"> 77</tspan></text>
+    <text x="30" y="256"><tspan fill="#5fae74">TOTAL_PULL_REQUESTS </tspan><tspan fill="#1f4a2c">.................</tspan><tspan fill="#33ff77" font-weight="700" filter="url(#softGlow)"> 5</tspan></text>
+    <text x="30" y="290"><tspan fill="#5fae74">TOTAL_ISSUES </tspan><tspan fill="#1f4a2c">.........................</tspan><tspan fill="#33ff77" font-weight="700" filter="url(#softGlow)"> 1</tspan></text>
+    <text x="30" y="324"><tspan fill="#5fae74">REPOS_CONTRIBUTED_TO </tspan><tspan fill="#1f4a2c">................</tspan><tspan fill="#33ff77" font-weight="700" filter="url(#softGlow)"> 1</tspan></text>
+  </g>
+
+  <!-- divider rules between rows for readout texture -->
+  <g stroke="#122c19" stroke-width="1">
+    <line x1="30" y1="200" x2="370" y2="200"/>
+    <line x1="30" y1="234" x2="370" y2="234"/>
+    <line x1="30" y1="268" x2="370" y2="268"/>
+    <line x1="30" y1="302" x2="370" y2="302"/>
+  </g>
+
+  <!-- featured project readout -->
+  <line x1="30" y1="356" x2="370" y2="356" stroke="#1c4a2a" stroke-width="1"/>
+  <text x="30" y="378" font-size="9" letter-spacing="2" fill="#2f5a3a">PINNED_PROCESS</text>
+  <text x="30" y="400" font-size="14" font-weight="700" fill="#33ff77" filter="url(#softGlow)">hybridAUTH.exe</text>
+  <text x="30" y="418" font-size="10" fill="#5fae74">passkey-first auth · FIDO2/WebAuthn · 10 STRIDE tests</text>
+
+  <!-- footer -->
+  <line x1="30" y1="452" x2="370" y2="452" stroke="#1c4a2a" stroke-width="1"/>
+  <text x="30" y="474" font-size="9.5" letter-spacing="1" fill="#2f5a3a">LAST_SYNC :: 2026-08-27T00:00Z</text>
+
+  <circle cx="34" cy="494" r="3" fill="#ffb020" filter="url(#warmGlow)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="44" y="498" font-size="10.5" letter-spacing="1.5" fill="#ffb020">STATUS: ONLINE</text>
+  <text x="370" y="498" font-size="9" fill="#2f5a3a" text-anchor="end" letter-spacing="1">v2.0</text>
+</svg>
