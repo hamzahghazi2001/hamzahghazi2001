@@ -1,16 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub activity sync pending</title>
-  <desc id="desc">Run the Update profile stats workflow once to populate live GitHub values.</desc>
+  <title id="title">Live GitHub activity</title>
+  <desc id="desc">GitHub contribution statistics generated from the GitHub GraphQL API.</desc>
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00F0FF"/>
       <stop offset="0.52" stop-color="#9D4EDD"/>
       <stop offset="1" stop-color="#FF2079"/>
     </linearGradient>
+    <style>
+      .label { font: 600 9.5px Consolas, 'Courier New', monospace; fill: #8B7AAE; letter-spacing: .8px; }
+      .value { font: 700 21px 'Segoe UI', Arial, sans-serif; }
+      .meta { font: 500 9px Consolas, 'Courier New', monospace; fill: #8B7AAE; }
+      .head { font: 700 12px Consolas, 'Courier New', monospace; fill: #00F0FF; letter-spacing: 1.5px; }
+    </style>
   </defs>
   <rect x="1" y="1" width="998" height="148" rx="12" fill="#0D0221" stroke="#2B1749" stroke-width="2"/>
-  <rect x="18" y="15" width="964" height="3" rx="2" fill="url(#line)"/>
-  <text x="34" y="48" fill="#00F0FF" font-size="14" font-weight="700" font-family="Consolas, 'Courier New', monospace" letter-spacing="1.8">GITHUB // LIVE</text>
-  <text x="34" y="87" fill="#E2E8F0" font-size="25" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">SYNC PENDING</text>
-  <text x="34" y="116" fill="#8B7AAE" font-size="12" font-family="Consolas, 'Courier New', monospace">Actions → Update profile stats → Run workflow</text>
+  <rect x="18" y="14" width="964" height="3" rx="2" fill="url(#line)"/>
+  <text x="34" y="35" class="head">GITHUB // LIVE // 2026</text>
+  <text x="966" y="35" class="meta" text-anchor="end">2026-08-28 15:21 UTC</text>
+  <g transform="translate(34 48)">
+      <rect width="145" height="58" rx="8" fill="#120827" stroke="#2B1749"/>
+      <rect width="3" height="58" rx="2" fill="#00F0FF"/>
+      <text x="15" y="21" class="label">CONTRIB</text>
+      <text x="15" y="47" class="value" fill="#00F0FF">93</text>
+    </g><g transform="translate(192 48)">
+      <rect width="145" height="58" rx="8" fill="#120827" stroke="#2B1749"/>
+      <rect width="3" height="58" rx="2" fill="#E2E8F0"/>
+      <text x="15" y="21" class="label">COMMIT CONTRIB</text>
+      <text x="15" y="47" class="value" fill="#E2E8F0">85</text>
+    </g><g transform="translate(350 48)">
+      <rect width="145" height="58" rx="8" fill="#120827" stroke="#2B1749"/>
+      <rect width="3" height="58" rx="2" fill="#FF2079"/>
+      <text x="15" y="21" class="label">PULL REQS</text>
+      <text x="15" y="47" class="value" fill="#FF2079">4</text>
+    </g><g transform="translate(508 48)">
+      <rect width="145" height="58" rx="8" fill="#120827" stroke="#2B1749"/>
+      <rect width="3" height="58" rx="2" fill="#9D4EDD"/>
+      <text x="15" y="21" class="label">REVIEWS</text>
+      <text x="15" y="47" class="value" fill="#9D4EDD">0</text>
+    </g><g transform="translate(666 48)">
+      <rect width="145" height="58" rx="8" fill="#120827" stroke="#2B1749"/>
+      <rect width="3" height="58" rx="2" fill="#00F0FF"/>
+      <text x="15" y="21" class="label">PUBLIC REPOS</text>
+      <text x="15" y="47" class="value" fill="#00F0FF">6</text>
+    </g><g transform="translate(824 48)">
+      <rect width="145" height="58" rx="8" fill="#120827" stroke="#2B1749"/>
+      <rect width="3" height="58" rx="2" fill="#FF2079"/>
+      <text x="15" y="21" class="label">STARS</text>
+      <text x="15" y="47" class="value" fill="#FF2079">0</text>
+    </g>
+  <text x="34" y="122" class="meta">LAST 12 WEEKS</text>
+  <rect x="36" y="121.6" width="55" height="14.4" rx="3" fill="#00F0FF" opacity="0.82"><title>16 contributions</title></rect><rect x="116" y="129.4" width="55" height="6.6" rx="3" fill="#00F0FF" opacity="0.82"><title>5 contributions</title></rect><rect x="196" y="133.0" width="55" height="3.0" rx="3" fill="#00F0FF" opacity="0.82"><title>0 contributions</title></rect><rect x="276" y="133.0" width="55" height="3.0" rx="3" fill="#00F0FF" opacity="0.82"><title>0 contributions</title></rect><rect x="356" y="133.0" width="55" height="3.0" rx="3" fill="#00F0FF" opacity="0.82"><title>0 contributions</title></rect><rect x="436" y="133.0" width="55" height="3.0" rx="3" fill="#00F0FF" opacity="0.82"><title>0 contributions</title></rect><rect x="516" y="133.0" width="55" height="3.0" rx="3" fill="#00F0FF" opacity="0.82"><title>0 contributions</title></rect><rect x="596" y="133.0" width="55" height="3.0" rx="3" fill="#00F0FF" opacity="0.82"><title>0 contributions</title></rect><rect x="676" y="133.0" width="55" height="3.0" rx="3" fill="#9D4EDD" opacity="0.82"><title>0 contributions</title></rect><rect x="756" y="133.0" width="55" height="3.0" rx="3" fill="#9D4EDD" opacity="0.82"><title>0 contributions</title></rect><rect x="836" y="133.0" width="55" height="3.0" rx="3" fill="#FF2079" opacity="0.82"><title>0 contributions</title></rect><rect x="916" y="118.0" width="55" height="18.0" rx="3" fill="#FF2079" opacity="0.82"><title>21 contributions</title></rect>
 </svg>
