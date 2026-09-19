@@ -64,15 +64,6 @@ Collaborative **Minecraft Fabric** project built around terrain-aware planning, 
   <img src="https://img.shields.io/github/last-commit/MCBuildSense-AI/buildsense-mod?style=flat-square&label=last%20commit&labelColor=0D0221&color=1B1035" alt="BuildSense last commit" />
 </p>
 
-## ACTIVE_DEPTH
-
-```text
-DSA patterns        -> implementation fluency, complexity analysis, recall under pressure
-PostgreSQL          -> schema design, joins, transactions, indexing, query planning
-HTTP / APIs         -> integration boundaries, errors, auth, idempotency, debugging
-Backend testing     -> pytest workflows, negative paths, database-backed checks
-Delivery pipeline   -> Docker, CI/CD, deployment workflow as the stack matures
-```
 
 ## VERIFIED_TRAINING
 
